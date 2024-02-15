@@ -1,0 +1,120 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: white;
+  }
+  
+  .container {
+    max-width: 1000px;
+    margin: 50px auto;
+    text-align: center;
+    background-color:  whitesmoke;
+  }
+  
+  h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    position: relative; 
+    text-align: center; 
+  }
+  
+  h1::after {
+    content: '';
+    display: block;
+    height: 5px; 
+    width: 20%; 
+    background-color: burlywood;
+    position: absolute;
+    bottom: -10px;
+    left: 50%; 
+    transform: translateX(-50%); 
+  }
+  
+   .button-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+  } 
+  
+  button {
+    padding: 10px 20px;
+    border: 2px solid burlywood;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-right: 10px; 
+  }
+  button:hover {
+    background-color: lightyellow; 
+  }
+  button:last-child {
+    margin-right: 0;
+  }
+  
+  .active {
+    background-color: #f0f0f0;
+  }
+  .menu-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px; 
+  }
+  .menu-item {
+    position: relative;
+    width: 400px;
+    margin: 10px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: right;
+  }
+ 
+  .menu-item .item-info {
+    position: relative;
+  }
+  
+  .menu-item img {
+    width: 50%;
+    height: auto;
+    margin-bottom: 5px;
+    float: left;
+    border: 2px solid burlywood;
+    border-radius: 5px;
+  }
+  
+  .menu-item .info-container {
+    display: flex;
+    align-items: baseline;
+  }
+  
+  .menu-item h2 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    position: relative;
+  }
+  
+  .menu-item .price {
+    font-weight: bold;
+    font-size: 1em;
+    color: burlywood;
+    margin-bottom: 1px;
+    position: relative;
+  }
+  
+  .menu-item .price::after {
+    content: '';
+    display: block;
+    height: 2px;
+    width: 100%;
+    background-color: burlywood;
+    position: absolute;
+    bottom: -3px;
+    left: 0;
+  }
+  
+  
+  
+  

@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Restaurant Menu</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <div class="container">
+    <h1>Our Menu</h1>
+    <div class="button-container">
+      <button class="active" data-target="all">All</button>
+      <button data-target="breakfast">Breakfast</button>
+      <button data-target="lunch">Lunch</button>
+      <button data-target="shakes">Shakes</button>
+      <button data-target="dinner">Dinner</button>
+    </div>
+    <div class="menu-items">
+
+      <div class="menu-item" data-category="all breakfast">
+        <div class="item-info">
+          <h2>Buttermilk Pancakes</h2>
+          <span class="price">$15.99</span>
+        </div>
+        <img src="./images/pancakes.jpg" alt="Buttermilk Pancakes">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas eu elit ligula.</p>
+      </div>
+      <div class="menu-item" data-category="breakfast">
+        <div class="item-info">
+          <h2>Classic Omelette</h2>
+          <span class="price">$9.99</span>
+        </div>
+        <img src="./images/omelette.jpg" alt="Classic Omelette">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas eu elit ligula.</p>
+      </div>
+      <div class="menu-item" data-category="breakfast">
+        <div class="item-info">
+          <h2>Avocado Toast</h2>
+          <span class="price">$12.99</span>
+        </div>
+        <img src="./images/avocado_toast.jpg" alt="Avocado Toast">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas eu elit ligula.</p>
+      </div>
+      <div class="menu-item" data-category="breakfast">
+        <div class="item-info">
+          <h2>Blueberry Pancakes</h2>
+          <span class="price">$11.99</span>
+        </div>
+        <img src="./images/blueberry_pancakes.jpg" alt="Blueberry Pancakes">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas eu elit ligula.</p>
+      </div>
+
+      <div class="menu-item" data-category="all shakes">
+        <div class="item-info">
+          <h2>Godzilla Milkshake</h2>
+          <span class="price">$6.99</span>
+        </div>
+        <img src="./images/shake.jpg" alt="Godzilla Milkshake">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas eu elit ligula.</p>
+      </div>
+      <div class="menu-item" data-category="shakes">
+        <div class="item-info">
+          <h2>Strawberry Smoothie</h2>
+          <span class="price">$7.99</span>
+        </div>
+        <img src="./images/strawberry_smoothie.jpg" alt="Strawberry Smoothie">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas eu elit ligula.</p>
+      </div>
+      <div class="menu-item" data-category="shakes">
+        <div class="item-info">
+          <h2>Vanilla Latte</h2>
+          <span class="price">$9.99</span>
+        </div>
+        <img src="./images/vanilla_latte.jpg" alt="Vanilla Latte">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas eu elit ligula.</p>
+      </div>
+      <div class="menu-item" data-category="shakes">
+        <div class="item-info">
+          <h2>Chocolate Banana Shake</h2>
+          <span class="price">$8.99</span>
+        </div>
+        <img src="./images/chocolate_banana_shake.jpg" alt="Chocolate Banana Shake">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas eu elit ligula.</p>
+      </div>
+
+      <div class="menu-item" data-category="all lunch">
+        <div class="item-info">
+          <h2>Country Delight</h2>
+          <span class="price">$20.99</span>
+        </div>
+        <img src="./images/lunch.jpg" alt="Country Delight">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas eu elit ligula.</p>
+      </div>
+      <div class="menu-item" data-category="lunch">
+        <div class="item-info">
+          <h2>Salad</h2>
+          <span class="price">$10.99</span>
+        </div>
+        <img src="./images/salad.jpg" alt="Salad">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas eu elit ligula.</p>
+      </div>
+      <div class="menu-item" data-category="lunch">
+        <div class="item-info">
+          <h2>Panini</h2>
+          <span class="price">$13.99</span>
+        </div>
+        <img src="./images/panini.jpg" alt="Panini">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas eu elit ligula.</p>
+      </div>
+      <div class="menu-item" data-category="lunch">
+        <div class="item-info">
+          <h2>Vegetable Wrap</h2>
+          <span class="price">$11.99</span>
+        </div>
+        <img src="./images/vegetable_wrap.jpg" alt="Vegetable Wrap">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas eu elit ligula.</p>
+      </div>
+
+      <div class="menu-item" data-category="all dinner">
+        <div class="item-info">
+          <h2>Dinner Double</h2>
+          <span class="price">$13.99</span>
+        </div>
+        <img src="./images/dinner.jpg" alt="Dinner Double">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas eu elit ligula.</p>
+      </div>
+      <div class="menu-item" data-category="dinner">
+        <div class="item-info">
+          <h2>Grilled Salmon</h2>
+          <span class="price">$24.99</span>
+        </div>
+        <img src="./images/grilled_salmon.jpg" alt="Grilled Salmon">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas eu elit ligula.</p>
+      </div>
+      <div class="menu-item" data-category="dinner">
+        <div class="item-info">
+          <h2>Pasta</h2>
+          <span class="price">$16.99</span>
+        </div>
+        <img src="./images/pasta.jpg" alt="Pasta">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas eu elit ligula.</p>
+      </div>
+      <div class="menu-item" data-category="dinner">
+        <div class="item-info">
+          <h2>Vegetarian Lasagna</h2>
+          <span class="price">$18.99</span>
+        </div>
+        <img src="./images/vegetarian_lasagna.jpg" alt="Vegetarian Lasagna">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas eu elit ligula.</p>
+      </div>
+    </div>    
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
