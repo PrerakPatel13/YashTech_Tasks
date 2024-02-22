@@ -1,0 +1,62 @@
+.todo-container {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.add-todo {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.add-todo input {
+  flex: 1;
+  margin-right: 10px;
+}
+
+.created-todos-container {
+  text-align: center;
+}
+
+.todo-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.todo-list-item {
+  margin-bottom: 15px; 
+}
+
+.add-button {
+  background-color: green;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  cursor: pointer;
+}
+
+.edit-button {
+  background-color: blue;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  cursor: pointer;
+  margin: 0 5px; 
+}
+
+.delete-button {
+  background-color: red;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  cursor: pointer;
+}
+
+.update-button {
+  background-color: orange;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  cursor: pointer;
+  margin-left: 10px; 
+}
