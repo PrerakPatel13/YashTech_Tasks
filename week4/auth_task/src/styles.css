@@ -1,0 +1,46 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 15px;
+  padding: 10px;
+}
+
+.container {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 50px;
+}
+
+
+.input-group {
+  margin-bottom: 15px; 
+}
+
+.username-input {
+  padding: 10px;
+  font-size: 16px;
+  margin: 15px;
+}
+
+.password-input {
+  padding: 10px;
+  font-size: 16px;
+  margin: 10px;
+}
+
+button {
+  background-color: green;
+  color: white;
+  padding: 10px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: lightgreen;
+}
+
+.dashboard-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
