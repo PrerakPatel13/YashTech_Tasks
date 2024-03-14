@@ -46,7 +46,7 @@ const useJokeFetch = () => {
       isMounted.current = false; 
     };
   }, []);
-
+  //cache
   const memoizedJoke = useMemo(() => joke, [joke]);
 
   return { loading, error, joke: memoizedJoke };
