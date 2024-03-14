@@ -1,8 +1,8 @@
 import React from 'react';
-import useJokeFetch from './useFetch';
+import JokeFetch from './useFetch';
 
 const JokeComponent = () => {
-  const { loading, error, joke } = useJokeFetch();
+  const { loading, error, joke } = JokeFetch();
 
   console.log('Loading:', loading);
   console.log('Error:', error);

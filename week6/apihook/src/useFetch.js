@@ -1,7 +1,7 @@
 import { useState, useEffect, useMemo, useRef } from 'react';
 import axios from 'axios';
 
-const useJokeFetch = () => {
+const JokeFetch = () => {
   const [joke, setJoke] = useState(null);
   const [error, setError] = useState(null);
   const [loading, setLoading] = useState(false);
@@ -46,10 +46,9 @@ const useJokeFetch = () => {
       isMounted.current = false; 
     };
   }, []);
-  //cache
   const memoizedJoke = useMemo(() => joke, [joke]);
 
   return { loading, error, joke: memoizedJoke };
 };
 
-export default useJokeFetch;
+export default JokeFetch;
